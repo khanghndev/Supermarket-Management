@@ -15,11 +15,11 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 The Supermarket Management System is a feature-rich desktop application designed to streamline all aspects of supermarket operations. Built with Java Swing for the frontend and powered by a Python-based recommendation engine, this system provides comprehensive management capabilities for employees, inventory, suppliers, customers, and sales transactions.
 
-### 🎯 Key Highlights
+### Key Highlights
 
 - **Role-based access control** with multiple user types
 - **Intelligent product recommendations** using Apriori algorithm
@@ -30,39 +30,39 @@ The Supermarket Management System is a feature-rich desktop application designed
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔐 Authentication & Authorization
+### Authentication & Authorization
 - Multi-role login system (Manager, Cashier, Warehouse, Employee)
 - Secure session management
 - User activity logging and audit trails
 
-### 👥 Employee Management
+### Employee Management
 - Complete CRUD operations for staff management
 - Employee performance tracking
 - Work schedule management
 - Salary and payroll integration
 
-### 📦 Inventory & Product Management
+### Inventory & Product Management
 - Product categorization with hierarchical structure
 - Real-time stock level monitoring
 - Automated reorder point notifications
 - Product image management
 - Batch and expiry date tracking
 
-### 🤝 Supplier & Procurement
+### Supplier & Procurement
 - Comprehensive supplier database
 - Purchase order creation and management
 - Supplier performance analytics
 - Automated purchase suggestions
 
-### 💰 Sales & Customer Management
+### Sales & Customer Management
 - Point-of-sale (POS) interface
 - Customer profile management
 - Invoice generation and printing
 - Sales analytics and reporting
 
-### 🤖 AI-Powered Recommendations
+### AI-Powered Recommendations
 - **Apriori algorithm** implementation for market basket analysis
 - Product bundle suggestions based on historical sales data
 - Customer behavior pattern analysis
@@ -70,7 +70,7 @@ The Supermarket Management System is a feature-rich desktop application designed
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐
@@ -98,7 +98,7 @@ The Supermarket Management System is a feature-rich desktop application designed
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend Technologies
 - **Java SE 8+** - Core application framework
@@ -124,7 +124,7 @@ The Supermarket Management System is a feature-rich desktop application designed
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before installing the Supermarket Management System, ensure you have the following installed:
 
@@ -145,7 +145,7 @@ Before installing the Supermarket Management System, ensure you have the followi
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -195,7 +195,7 @@ java -jar dist/supermarket-management.jar
 
 ---
 
-## 🔑 Default Credentials
+## Default Credentials
 
 | Role | Username | Password | Permissions |
 |------|----------|----------|-------------|
@@ -204,11 +204,11 @@ java -jar dist/supermarket-management.jar
 | **Warehouse** | `warehouse` | `ware123` | Inventory, Suppliers |
 | **Employee** | `employee` | `emp123` | Limited access |
 
-> ⚠️ **Important**: Change default passwords immediately after first login for security.
+> **Important**: Change default passwords immediately after first login for security.
 
 ---
 
-## 📱 Usage
+## Usage
 
 ### Getting Started
 1. Launch the application using `java -jar dist/supermarket-management.jar`
@@ -217,26 +217,26 @@ java -jar dist/supermarket-management.jar
 
 ### Key Workflows
 
-#### 📊 Daily Operations
+#### Daily Operations
 - **Morning Setup**: Check inventory levels, review pending orders
 - **Sales Processing**: Use POS interface for customer transactions
 - **Inventory Updates**: Record stock movements and adjustments
 - **End-of-Day**: Generate daily sales reports
 
-#### 🔄 Inventory Management
+#### Inventory Management
 - Add new products with categories and pricing
 - Set reorder points for automatic alerts
 - Track expiry dates and batch numbers
 - Generate inventory reports
 
-#### 🤖 Using Recommendations
+#### Using Recommendations
 - Access the recommendations panel in the sales module
 - View suggested product bundles based on customer purchase patterns
 - Apply recommendations to increase sales and customer satisfaction
 
 ---
 
-## 🖼 Screenshots
+## Screenshots
 
 <details>
 <summary>🔐 Login Interface</summary>
@@ -247,7 +247,7 @@ java -jar dist/supermarket-management.jar
 </details>
 
 <details>
-<summary>📊 Admin Dashboard</summary>
+<summary>Admin Dashboard</summary>
 
 ![Admin Dashboard](src/resources/employee/setting.png)
 
@@ -262,7 +262,7 @@ java -jar dist/supermarket-management.jar
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Supermarket-Management/
@@ -289,7 +289,7 @@ Supermarket-Management/
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests
 ```bash
@@ -312,7 +312,7 @@ python test_api.py
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions to the Supermarket Management System! Here's how you can help:
 
@@ -335,30 +335,6 @@ Please use the [GitHub Issues](https://github.com/your-username/Supermarket-Mana
 - Steps to reproduce
 - Expected vs actual behavior
 - System information
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🆘 Support
-
-Need help? Here are your options:
-
-- **Documentation**: Check this README and inline code comments
-- **Issues**: Submit bug reports or feature requests on GitHub
-- **Email**: Contact the development team at [your-email@example.com]
-
----
-
-## 🙏 Acknowledgments
-
-- **Development Team**: For creating this comprehensive solution
-- **Open Source Community**: For the amazing libraries and tools
-- **Beta Testers**: For valuable feedback and bug reports
 
 ---
 
